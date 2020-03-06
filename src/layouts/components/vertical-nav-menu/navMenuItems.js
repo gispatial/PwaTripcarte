@@ -29,7 +29,7 @@ export default [
   // },
   {
     url: null,
-    name: "Dashboard",
+    name: "Dashboard4",
     tag: "2",
     tagColor: "warning",
     icon: "HomeIcon",

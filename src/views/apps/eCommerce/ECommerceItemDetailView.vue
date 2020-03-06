@@ -29,7 +29,7 @@
             <div class="vx-row mt-6">
               <div class="vx-col md:w-2/5 w-full flex items-center justify-center">
                 <div class="product-img-container w-3/5 mx-auto mb-10 md:mb-0">
-                  <img src="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/01.png" :alt="item_data.name" class="responsive">
+                  <img src="http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/01.png" :alt="item_data.name" class="responsive">
 
                   <!--
                     UnComment Below line for true flow
@@ -299,7 +299,7 @@ export default{
         "name"       : "Apple - Apple Watch Series 1 42mm Space Gray Aluminum Case Black Sport Band - Space Gray Aluminum",
         "brand"      : "Apple",
         "price"      : 229,
-        "image"      : "https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/01.png",
+        "image"      : "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/01.png",
         "rating"     : 4,
         "objectID"   : "5546604",
       },
@@ -307,15 +307,15 @@ export default{
         "name"       : "Beats by Dr. Dre - Powerbeats2 Wireless Earbud Headphones - Black/Red",
         "brand"      : "Beats by Dr. Dre",
         "price"      : 199.99,
-        "image"      : "https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/08.png",
+        "image"      : "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/08.png",
         "rating"     : 4,
         "objectID"   : "5565002",
       },
       {
-        "name"       : "Amazon - Fire TV Stick with Alexa Voice Remote - Black",
+        "name"       : "Amazonian - Fire TV Stick with Alexa Voice Remote - Black",
         "brand"      : "Amazon",
         "price"      : 39.99,
-        "image"      : "https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/03.png",
+        "image"      : "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/03.png",
         "rating"     : 4,
         "objectID"   : "5477500",
       },
@@ -323,7 +323,7 @@ export default{
         "name"       : "Apple - Apple Watch Nike+ 42mm Silver Aluminum Case Silver/Volt Nike Sport Band - Silver Aluminum",
         "brand"      : "Apple",
         "price"      : 399,
-        "image"      : "https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/07.png",
+        "image"      : "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/07.png",
         "rating"     : 4,
         "objectID"   : "5547700",
       },
@@ -331,7 +331,7 @@ export default{
         "name"       : "Google - Chromecast Ultra - Black",
         "brand"      : "Google",
         "price"      : 69.99,
-        "image"      : "https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/05.png",
+        "image"      : "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/05.png",
         "rating"     : 4,
         "objectID"   : "5578628",
       },
@@ -339,7 +339,7 @@ export default{
         "name"       : "Beats by Dr. Dre - Beats EP Headphones - White",
         "brand"      : "Beats by Dr. Dre",
         "price"      : 129.99,
-        "image"      : "https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/02.png",
+        "image"      : "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/02.png",
         "rating"     : 4,
         "objectID"   : "5577781",
       },
@@ -347,7 +347,7 @@ export default{
         "name"       : "LG - 40\" Class (39.5\" Diag.) - LED - 1080p - HDTV - Black",
         "brand"      : "LG",
         "price"      : 279.99,
-        "image"      : "https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/09.png",
+        "image"      : "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/09.png",
         "rating"     : 4,
         "objectID"   : "5613404",
       }]
