@@ -3,16 +3,16 @@ import jwt from 'jsonwebtoken'
 
 const data = {
   checkpointReward: {
-    userName: "John",
+    userName: "Brian",
     progress: "57.6%"
   },
   users: [
     {
       uid: 34,
-      displayName: "Howard Potts",
+      displayName: "Parthiven Shan",
       password: "adminadmin",
       photoURL: require("@/assets/images/portrait/small/avatar-s-5.jpg"),
-      email: "admin@admin.com",
+      email: "parthiven@tripcarte.asia",
       phoneNumber: null,
     }
   ]

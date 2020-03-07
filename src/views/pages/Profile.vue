@@ -313,7 +313,7 @@ export default {
         { name: 'Gerald Licea',  avatar: require("@/assets/images/portrait/small/avatar-s-8.jpg"),  mutualFriends: 1 },
         { name: 'Kelle Herrick', avatar: require("@/assets/images/portrait/small/avatar-s-9.jpg"),  mutualFriends: 1 },
         { name: 'Cesar Lee',     avatar: require("@/assets/images/portrait/small/avatar-s-10.jpg"), mutualFriends: 1 },
-        { name: 'John Doe',      avatar: require("@/assets/images/portrait/small/avatar-s-11.jpg"), mutualFriends: 1 },
+        { name: 'Parthiven Doe',      avatar: require("@/assets/images/portrait/small/avatar-s-11.jpg"), mutualFriends: 1 },
         { name: 'Tonia Seabold', avatar: require("@/assets/images/portrait/small/avatar-s-12.jpg"), mutualFriends: 1 },
       ],
       userLatestPhotos: [

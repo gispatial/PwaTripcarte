@@ -53,7 +53,7 @@ const router = new Router({
                     name: 'dashboard-analytics',
                     component: () => import('./views/DashboardAnalytics.vue'),
                     meta: {
-                        rule: 'editor',
+                        rule: 'admin',
                     }
                 },
                 {
@@ -61,7 +61,7 @@ const router = new Router({
                     name: 'dashboard-ecommerce',
                     component: () => import('./views/DashboardECommerce.vue'),
                     meta: {
-                        rule: 'admin'
+                        rule: 'editor'
                     }
                 },
 
@@ -72,20 +72,20 @@ const router = new Router({
                 {
                     path: '/apps/todo',
                     redirect: '/apps/todo/all',
-                    name: 'todo',
+                    name: 'Add Listings',
                 },
                 {
                     path: '/apps/todo/:filter',
                     component: () => import('./views/apps/todo/Todo.vue'),
                     meta: {
                         rule: 'editor',
-                        parent: "todo",
+                        parent: "Add Listings",
                         no_scroll: true,
                     }
                 },
                 {
                     path: '/apps/chat',
-                    name: 'chat',
+                    name: 'Tc Messenger',
                     component: () => import('./views/apps/chat/Chat.vue'),
                     meta: {
                         rule: 'editor',
@@ -95,7 +95,7 @@ const router = new Router({
                 {
                     path: '/apps/email',
                     redirect: '/apps/email/inbox',
-                    name: 'email',
+                    name: 'Email Management',
                 },
                 {
                     path: '/apps/email/:filter',
@@ -196,7 +196,7 @@ const router = new Router({
                             { title: 'User' },
                             { title: 'List', active: true },
                         ],
-                        pageTitle: 'Merchant List',
+                        pageTitle: 'Agent List',
                         rule: 'editor'
                     },
                 },

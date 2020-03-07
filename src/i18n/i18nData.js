@@ -2,7 +2,7 @@
 export default {
 	en: {
 		Dashboard: 'Dashboard',
-		eCommerce: 'eCommerce',
+		eCommerce: 'Merchant',
 		Apps: 'Apps',
 		Todo: 'Todo',
 		Chat: 'Chat',
