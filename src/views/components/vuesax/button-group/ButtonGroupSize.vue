@@ -52,4 +52,3 @@
     </template>
   </vx-card>
 </template>
-

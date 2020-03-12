@@ -67,7 +67,6 @@ export default {
 		Textarea: 'Textarea',
 		FormLayouts: 'Form Layouts',
 		FormWizard: 'Form Wizard',
-		FormValidation: 'Form Validation',
     FormInputGroup: 'Form Input Group',
 		Pages: 'Pages',
 		Authentication: 'Authentication',

@@ -49,6 +49,7 @@ export default [
       },
     ]
   },
+
   {
     header: "Apps",
     icon: "PackageIcon",
@@ -237,9 +238,9 @@ export default [
       },
       {
         url: null,
-        name: "Tripcarte Management",
+        name: "CRM",
         icon: "ArchiveIcon",
-        i18n: "Tripcarte Management",
+        i18n: "CRM",
         submenu: [
           {
             url: '/components/alert',
@@ -278,100 +279,10 @@ export default [
             i18n: "Total Redemption this Week",
           },
           {
-            url: '/components/collapse',
-            name: "Collapse",
-            slug: "component-collapse",
-            i18n: "Collapse",
-          },
-          {
-            url: '/components/dialogs',
-            name: "Dialogs",
-            slug: "component-dialog",
-            i18n: "Dialogs",
-          },
-          {
-            url: '/components/divider',
-            name: "Divider",
-            slug: "component-divider",
-            i18n: "Divider",
-          },
-          {
-            url: '/components/dropdown',
-            name: "DropDown",
-            slug: "component-drop-down",
-            i18n: "DropDown",
-          },
-          {
-            url: '/components/list',
-            name: "List",
-            slug: "component-list",
-            i18n: "List",
-          },
-          {
-            url: '/components/loading',
-            name: "Loading",
-            slug: "component-loading",
-            i18n: "Loading",
-          },
-          {
-            url: '/components/navbar',
-            name: "Navbar",
-            slug: "component-navbar",
-            i18n: "Navbar",
-          },
-          {
             url: '/components/notifications',
             name: "Notifications",
             slug: "component-notifications",
             i18n: "Notifications",
-          },
-          {
-            url: '/components/pagination',
-            name: "Pagination",
-            slug: "component-pagination",
-            i18n: "Pagination",
-          },
-          {
-            url: '/components/popup',
-            name: "Popup",
-            slug: "component-popup",
-            i18n: "Popup",
-          },
-          {
-            url: '/components/progress',
-            name: "Progress",
-            slug: "component-progress",
-            i18n: "Progress",
-          },
-          {
-            url: '/components/sidebar',
-            name: "Sidebar",
-            slug: "component-sidebar",
-            i18n: "Sidebar",
-          },
-          {
-            url: '/components/slider',
-            name: "Slider",
-            slug: "component-slider",
-            i18n: "Slider",
-          },
-          {
-            url: '/components/tabs',
-            name: "Tabs",
-            slug: "component-tabs",
-            i18n: "Tabs",
-          },
-          {
-            url: '/components/tooltip',
-            name: "Tooltip",
-            slug: "component-tooltip",
-            i18n: "Tooltip",
-          },
-          {
-            url: '/components/upload',
-            name: "Upload",
-            slug: "component-upload",
-            i18n: "Upload",
           },
         ]
       },
@@ -508,96 +419,11 @@ export default [
     i18n: "New Registration",
     items: [
       {
-        url: null,
-        name: "Push Notification",
-        icon: "CopyIcon",
-        i18n: "Push Notification",
-        submenu: [
-          // {
-          //  url: '/forms/form-elements/select',
-          //  name: "Select",
-          //  slug: "form-element-select",
-          //  i18n: "Select",
-          // },
-          {
-            url: '/forms/form-elements/switch',
-            name: "Switch",
-            slug: "form-element-switch",
-            i18n: "Switch",
-          },
-          {
-            url: '/forms/form-elements/checkbox',
-            name: "Checkbox",
-            slug: "form-element-checkbox",
-            i18n: "Checkbox",
-          },
-          {
-            url: '/forms/form-elements/radio',
-            name: "Radio",
-            slug: "form-element-radio",
-            i18n: "Radio",
-          },
-          {
-            url: '/forms/form-elements/input',
-            name: "Input",
-            slug: "form-element-input",
-            i18n: "Input",
-          },
-          {
-            url: '/forms/form-elements/number-input',
-            name: "Number Input",
-            slug: "form-element-number-input",
-            i18n: "NumberInput",
-          },
-          {
-            url: '/forms/form-elements/textarea',
-            name: "Textarea",
-            slug: "form-element-textarea",
-            i18n: "Textarea",
-          },
-        ]
-      },
-      {
-        url: '/forms/form-layouts',
-        name: "Form Layouts",
-        icon: "PackageIcon",
-        slug: "forms-form-layouts",
-        i18n: "FormLayouts",
-      },
-      {
-        url: '/forms/form-wizard',
-        name: "Form Wizard",
-        icon: "PackageIcon",
-        slug: "extra-component-form-wizard",
-        i18n: "FormWizard",
-      },
-      {
-        url: '/forms/form-validation',
-        name: "Form Validation",
-        icon: "CheckCircleIcon",
-        slug: "extra-component-form-validation",
-        i18n: "FormValidation",
-      },
-      {
         url: '/forms/form-input-group',
-        name: "Form Input Group",
-        icon: "MenuIcon",
+        name: "Register An Attraction",
+        icon: "CheckCircleIcon",
         slug: "extra-component-form-input-group",
-        i18n: "FormInputGroup",
-      },
-      {
-        url: "/ui-elements/table",
-        name: "Table",
-        slug: "table",
-        icon: "GridIcon",
-        i18n: "Table",
-      },
-      {
-        url: "/ui-elements/ag-grid-table",
-        name: "agGrid Table",
-        slug: "ag-grid-table",
-        icon: "GridIcon",
-        i18n: "agGridTable",
+        i18n: "Register An Attraction",
       },
     ]
   },
@@ -650,7 +476,7 @@ export default [
       },
       {
         url: null,
-        name: "Authentication",
+        name: "User Management Area",
         icon: "PieChartIcon",
         i18n: "Authentication",
         submenu: [
@@ -691,58 +517,12 @@ export default [
           },
         ]
       },
-      {
-        url: null,
-        name: "Miscellaneous",
-        icon: "CoffeeIcon",
-        i18n: "Miscellaneous",
-        submenu: [
-          {
-            url: '/pages/not-authorized',
-            name: "Not Authorized",
-            slug: "page-not-authorized",
-            icon: "XCircleIcon",
-            i18n: "NotAuthorized",
-            target: '_blank',
-          },
-          {
-            url: '/pages/maintenance',
-            name: "Maintenance",
-            slug: "page-maintenance",
-            icon: "AnchorIcon",
-            i18n: "Maintenance",
-            target: '_blank',
-          },
-          {
-            url: '/pages/comingsoon',
-            slug: 'page-coming-soon',
-            name: "Coming Soon",
-            icon: "ClockIcon",
-            i18n: "ComingSoon",
-            target: '_blank',
-          },
-          {
-            url: '/pages/error-404',
-            name: "404",
-            slug: "page-error-404",
-            i18n: "404",
-            target: '_blank',
-          },
-          {
-            url: '/pages/error-500',
-            name: "500",
-            slug: "page-error-500",
-            i18n: "500",
-            target: '_blank',
-          }
-        ]
-      },
     ]
   },
   {
-    header: "Charts & Maps",
+    header: "Merchant Store Locator",
     icon: "PieChartIcon",
-    i18n: "ChartsAndMaps",
+    i18n: "Analytics Dashboard",
     items: [
       {
         url: null,
@@ -750,34 +530,27 @@ export default [
         icon: "PieChartIcon",
         tag: '3',
         tagColor: 'success',
-        i18n: "Charts",
+        i18n: "Merchant Analytics Dashboard",
         submenu: [
           {
             url: '/charts-and-maps/charts/apex-charts',
-            name: "Apex Charts",
+            name: "Merchant",
             slug: "extra-component-charts-apex-charts",
-            i18n: "ApexCharts",
+            i18n: "Merchant",
           },
           {
             url: '/charts-and-maps/charts/chartjs',
-            name: "chartjs",
+            name: "Agent",
             slug: "extra-component-charts-chartjs",
-            i18n: "chartjs",
+            i18n: "Agent",
           },
           {
             url: '/charts-and-maps/charts/echarts',
-            name: "echarts",
+            name: "finance",
             slug: "extra-component-charts-echarts",
-            i18n: "echarts",
+            i18n: "Finance",
           },
         ]
-      },
-      {
-        url: '/charts-and-maps/maps/google-map',
-        name: "Google Map",
-        icon: "MapIcon",
-        slug: "extra-component-maps-google-map",
-        i18n: "GoogleMap",
       },
     ]
   },
@@ -786,43 +559,6 @@ export default [
     icon: "MoreHorizontalIcon",
     i18n: "Others",
     items: [
-      {
-        url: null,
-        name: "Menu Levels",
-        icon: "MenuIcon",
-        i18n: "MenuLevels",
-        submenu: [
-          {
-            url: null,
-            name: "Menu Level 2.1",
-            i18n: "MenuLevel2p1",
-          },
-          {
-            url: null,
-            name: "Menu Level 2.2",
-            i18n: "MenuLevel2p2",
-            submenu: [
-              {
-                url: null,
-                name: "Menu Level 3.1",
-                i18n: "MenuLevel3p1",
-              },
-              {
-                url: null,
-                name: "Menu Level 3.2",
-                i18n: "MenuLevel3p2",
-              },
-            ]
-          },
-        ]
-      },
-      {
-        url: null,
-        name: "Disabled Menu",
-        icon: "EyeOffIcon",
-        i18n: "DisabledMenu",
-        isDisabled: true,
-      },
       {
         url: null,
         name: "Support",

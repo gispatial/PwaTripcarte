@@ -1,40 +1,42 @@
 <template>
-  <vx-card title="Basic" code-toggler>
-
-    <div class="mb-base">
-      <p><code>vx-input-group</code> component provides various options to create desired form input group.</p>
-    </div>
+  <vx-card title="COMPANY INFORMATION" code-toggler>
 
     <!-- TITLE -->
-    <vx-input-group class="mb-base">
+    <vx-input-group>
       <template slot="prepend">
         <div class="prepend-text bg-primary">
-          <span>@</span>
+          <span>Company Name *</span>
         </div>
       </template>
-
-      <vs-input v-model="title" placeholder="Email" />
+      <vs-input v-model="title" placeholder="Your SSM company name" />
     </vx-input-group>
-    <!-- /TITLE -->
 
-    <!-- URL -->
-    <vx-input-group class="mb-base">
-      <vs-input v-model="username" placeholder="Username" />
-
-      <template slot="append">
-        <div class="append-text bg-primary">
-          <span>@url.com</span>
+    &nbsp;
+    <vx-input-group>
+      <template slot="prepend">
+        <div class="prepend-text bg-primary">
+          <span>Sir/ Madam</span>
         </div>
       </template>
+      <vs-input v-model="title" placeholder="Contact Person Name *" />
+    </vx-input-group>
+
+    &nbsp;
+    <vx-input-group class="mb-base">
+      <vs-input v-model="number" placeholder="Phone Number *" />
+
     </vx-input-group>
     <!-- /URL -->
 
     <!-- USERNAME -->
+
+    <p>Website:</p>
     <vx-input-group class="mb-base">
       <template slot="prepend">
         <div class="prepend-text bg-primary">
-          <span>https://pixinvent.com/users/</span>
+          <span>http://</span>
         </div>
+
       </template>
 
       <vs-input v-model="siteUsername" />
@@ -45,31 +47,121 @@
     <vx-input-group class="mb-base">
       <template slot="prepend">
         <div class="prepend-text bg-primary">
-          <span>$</span>
+          <span>Email</span>
         </div>
       </template>
 
-      <vs-input v-model="amount" />
+      <vs-input v-model="email" />
 
       <template slot="append">
-        <div class="append-text bg-primary">
-          <span>.00</span>
-        </div>
       </template>
     </vx-input-group>
     <!-- /currency -->
 
     <!-- Textarea -->
-    <vx-input-group>
+    <vx-input-group class="mb-base">
       <template slot="prepend">
         <div class="prepend-text bg-primary">
-          <span>Description</span>
+          <span>Address</span>
         </div>
       </template>
 
-      <vs-textarea v-model="textarea" />
+      <vs-input v-model="address" />
+
+      <template slot="append">
+      </template>
     </vx-input-group>
-    <!-- /Textarea -->
+
+    <vx-input-group class="mb-base">
+      <template slot="prepend">
+        <div class="prepend-text bg-primary">
+          <span>Apartment, Suite, unit etc. (optional)</span>
+        </div>
+      </template>
+
+      <vs-input v-model="apt, suite" />
+
+      <template slot="append">
+      </template>
+    </vx-input-group>
+
+    <vx-input-group class="mb-base">
+      <template slot="prepend">
+        <div class="prepend-text bg-primary">
+          <span>Address</span>
+        </div>
+      </template>
+
+      <vs-input v-model="address" />
+
+      <template slot="append">
+      </template>
+    </vx-input-group>
+
+    <vx-input-group class="mb-base">
+      <template slot="prepend">
+        <div class="prepend-text bg-primary">
+          <span>Apartment, Suite, unit etc. (optional)</span>
+        </div>
+      </template>
+
+      <vs-input v-model="apt, suite" />
+
+      <template slot="append">
+      </template>
+    </vx-input-group>
+
+    <vx-input-group class="mb-base">
+      <template slot="prepend">
+        <div class="prepend-text bg-primary">
+          <span>City</span>
+        </div>
+      </template>
+
+      <vs-input v-model="address" />
+
+      <template slot="append">
+      </template>
+    </vx-input-group>
+
+    <vx-input-group class="mb-base">
+      <template slot="prepend">
+        <div class="prepend-text bg-primary">
+          <span>State/Province</span>
+        </div>
+      </template>
+
+      <vs-input v-model="apt, suite" />
+
+      <template slot="append">
+      </template>
+    </vx-input-group>
+
+    <vx-input-group class="mb-base">
+      <template slot="prepend">
+        <div class="prepend-text bg-primary">
+          <span>Zip/Postal</span>
+        </div>
+      </template>
+
+      <vs-input v-model="address" />
+
+      <template slot="append">
+      </template>
+    </vx-input-group>
+
+    <vx-input-group class="mb-base">
+      <template slot="prepend">
+        <div class="prepend-text bg-primary">
+          <span>Country</span>
+        </div>
+      </template>
+
+      <vs-input v-model="apt" />
+
+      <template slot="append">
+      </template>
+    </vx-input-group>
 
     <template slot="codeContainer">
 &lt;tempalte&gt;

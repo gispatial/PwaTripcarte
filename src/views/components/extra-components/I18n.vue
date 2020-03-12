@@ -18,7 +18,7 @@
                 </vs-radio>
 
                 <vs-radio v-model="locale" vs-value="fr" class="mt-3">
-                    <span class="mr-2">French</span>
+                    <span class="mr-2">B. Malaysia</span>
                 </vs-radio>
 
                 <vs-radio v-model="locale" vs-value="de" class="mt-3">

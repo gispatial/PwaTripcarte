@@ -129,7 +129,7 @@ export default {
 
       langOptions: [
         { label: "English",  value: "english"  },
-        { label: "Spanish",  value: "spanish"  },
+        { label: "Bahasa_Malaysia",  value: "bm"  },
         { label: "French",   value: "french"   },
         { label: "Russian",  value: "russian"  },
         { label: "German",   value: "german"   },

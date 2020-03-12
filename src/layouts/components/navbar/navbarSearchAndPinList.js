@@ -62,8 +62,8 @@ export default {
       {title: "Textarea Form Element",     url: "/forms/form-elements/textarea",       icon: "TypeIcon",           is_bookmarked: false},
       {title: "Form Layouts",              url: "/forms/form-layouts",                 icon: "LayoutIcon",         is_bookmarked: false},
       {title: "Form Wizard",               url: "/forms/form-wizard",                  icon: "GitCommitIcon",      is_bookmarked: false},
-      {title: "Form Validation",           url: "/forms/form-validation",              icon: "CheckSquareIcon",    is_bookmarked: false},
-      {title: "Form Input Group",          url: "/forms/form-input-group",             icon: "MenuIcon",           is_bookmarked: false},
+      {title: "Tripcarte Travel Partner Registration",           url: "/forms/form-validation",              icon: "CheckSquareIcon",    is_bookmarked: false},
+      {title: "Register Attraction",          url: "/forms/form-input-group",             icon: "MenuIcon",           is_bookmarked: false},
 
       // PAGES
       {title: "Login Page",                url: "/pages/login",                        icon: "LockIcon",           is_bookmarked: false},

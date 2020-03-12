@@ -836,7 +836,7 @@ const router = new Router({
                     meta: {
                         breadcrumb: [
                             { title: 'Home', url: '/' },
-                            { title: 'Extra Components' },
+                            { title: 'Registration' },
                             { title: 'Form Wizard', active: true },
                         ],
                         pageTitle: 'Form Wizard',
@@ -850,10 +850,10 @@ const router = new Router({
                     meta: {
                         breadcrumb: [
                             { title: 'Home', url: '/' },
-                            { title: 'Extra Components' },
-                            { title: 'Form Validation', active: true },
+                            { title: 'New Registration' },
+                            { title: 'Registration', active: true },
                         ],
-                        pageTitle: 'Form Validation',
+                        pageTitle: 'Registration',
                         rule: 'editor'
                     },
                 },
@@ -865,9 +865,9 @@ const router = new Router({
                       breadcrumb: [
                           { title: 'Home', url: '/' },
                           { title: 'Extra Components' },
-                          { title: 'Form Input Group', active: true },
+                          { title: 'Attraction Registration', active: true },
                       ],
-                      pageTitle: 'Form Input Group',
+                      pageTitle: 'Attraction Registration',
                       rule: 'editor'
                   },
                 },
